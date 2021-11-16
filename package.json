@@ -1,0 +1,24 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "real time chat appliction.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "krishan kumar",
+  "license": "ISC",
+  "dependencies": {
+    "emoji-mart": "^3.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "babel-polyfill": "^6.26.0",
+    "pstree.remy": "^1.1.0"
+  }
+}

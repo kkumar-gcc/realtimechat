@@ -1,0 +1,32 @@
+.container{
+    max-width: 955px;
+    background-color: rgb(205, 209, 209);
+    margin: auto;
+    /* min-height: 60vh; */
+    height: 90vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    
+}
+.message{
+   background-color: white ;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+   max-width: 50%;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(168, 99, 185);
+    color: white;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    text-align: center;
+
+}
